@@ -1,0 +1,94 @@
+/* Import all components */
+@import 'pxtsemantic';
+@import 'pxt';
+@import 'themes/default/globals/site.variables';
+@import 'themes/pxt/globals/site.variables';
+@import 'site/globals/site.variables';
+
+/* Reference import */
+@import (reference) "semantic.less";
+
+/*******************************
+    Add your custom CSS here
+*******************************/
+
+/* Roboto font */
+@RobotoFont: data-uri("../docs/static/fonts/Roboto_400_normal.woff");
+
+@font-face  {
+    font-family: 'Roboto';
+    src: @RobotoFont format("woff");
+}
+
+.ui.button.download-button {
+    &:extend(.ui.purple.button all);
+}
+
+.ui.button.download-button:hover {
+    background-color: #00ED00;
+    color: black !important;
+}
+
+.ui.button.play-button.play-button-full {
+    &:extend(.ui.inverted.button all);
+}
+
+.ui.button.getting-started-btn {
+    &:extend(.ui.orange.button all);
+}
+
+.ui.button.editortools-btn {
+    &:extend(.ui.blue.button all);
+}
+
+.ui.button.exit-tutorial-btn {
+    &:extend(.ui.blue.button all);
+}
+
+#filelist, #editortools {
+    background: #fff url(https://az742082.vo.msecnd.net/pub/psopafpj) 0 0 repeat !important;
+}
+
+#downloadArea {
+    background: transparent !important;
+}
+
+.organization {
+    top: 1.6em;
+}
+
+/*******************************
+             Monaco
+*******************************/
+
+.monacoDraggableBlock {
+    background: #ecf0f1;
+    border: solid 3px #ecf0f1;
+}
+
+.monacoFlyout {
+    background: rgba(82, 90, 103, 0.5);
+}
+
+
+/* Mobile */
+@media only screen and (max-width: @largestMobileScreen) {
+    #filelist {
+        background: transparent !important;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: @tabletBreakpoint) and (max-width: @largestTabletScreen) {
+    #filelist {
+        background: transparent !important;
+    }
+}
+
+/* Small Monitor */
+@media only screen and (min-width: @computerBreakpoint) and (max-width: @largestSmallMonitor) {
+}
+
+/* Large Monitor */
+@media only screen and (min-width: @largeMonitorBreakpoint) {
+}

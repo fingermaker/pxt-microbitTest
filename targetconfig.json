@@ -1,0 +1,39 @@
+{
+    "packages": {
+        "approvedOrgs": [
+            "Microsoft",
+            "microbit-foundation",
+            "KitronikLtd",
+            "tinkertanker"
+        ],
+        "approvedRepos": [
+            "CoderDojoOlney/pxt-olney",
+            "PaulDFoster/pxt-microbit-GY521",
+            "chevyng/pxt-ucl-junkrobot",
+            "srs/pxt-bitbot",
+            "sparkfun/pxt-gamer-bit",
+            "sparkfun/pxt-moto-bit",
+            "sparkfun/pxt-weather-bit",
+            "minodekit/pxt-minode",
+            "LaboratoryForPlayfulComputation/pxt-blockytalkyBLE",
+            "mbitfun/pxt-katakana"
+        ],
+        "preferredRepos": [
+            "Microsoft/pxt-neopixel"
+        ]
+    },
+    "languages": [
+        "en",
+        "de",
+        "fr",
+        "ko",
+        "it",
+        "ja",
+        "nl",
+        "no",
+        "sv-SE",
+        "si-LK",
+        "zh-CN",
+        "zh-TW"
+    ]
+}
